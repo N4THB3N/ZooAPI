@@ -12,3 +12,4 @@ api.post('/buscarAnimal', AnimalController.searchAnimal);
 /* This are some routes */
 
 module.exports = api;
+

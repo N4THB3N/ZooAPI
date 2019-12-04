@@ -13,7 +13,7 @@ function saveKeeper(req, res){
                   if(!keeperStored){
                     res.status(404).send({message: 'Unable to save the user'});
                   }else{
-                    res.status(200).send({keeper: keeperStored});
+                    res.status(200).send({keeperStored});
                   }
                 }
               });
